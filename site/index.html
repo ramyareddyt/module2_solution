@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<style>
+		.main{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+h1{
+	text-align: center;
+}
+
+.h4{
+	width: 100px;
+	height: 20px;
+	border:2px solid;
+	float: right;
+	background-color:orangered;
+}
+.one{
+	background-color: grey;
+	border: 2px solid;
+	margin:4%;
+	width:50%;
+	height:60%;
+	padding: 0px auto;
+}
+.h2{
+	width: 100px;
+	height: 20px;
+	border:2px solid;
+	float: right;
+	background-color: rgb(138, 11, 37);
+}
+.two{
+	background-color: grey;
+	border: 2px solid;
+	margin:4%;
+	width:50%;
+	height:60%;
+	padding: 0px auto;
+}
+.three{
+	background-color: grey;
+	border: 2px solid;
+	margin:4%;
+	width:50%;
+	height:60%;
+	padding: 0px auto;
+}
+.h3{
+	width: 100px;
+	height: 20px;
+	border:2px solid;
+	float: right;
+	background-color: rgb(231, 181, 54);
+}
+@media (max-width: 767px ){
+	.main{
+	 display: inline;
+	}
+	.one,.two,.three{
+		width: 80%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.main{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.one{
+		background-color: grey;
+		border: 2px solid;
+		margin:4%;
+		width:40%;
+		height:60%;
+	}
+	.two{
+		background-color: grey;
+		border: 2px solid;
+		margin:4%;
+		width:40%;
+		height:60%;
+	}
+	.three{
+		background-color: grey;
+		border: 2px solid;
+		margin:4%;
+		width:50%;
+		height:60%;
+	}
+}
+@media (min-width: 767px ){
+	.main{
+	 display: flex;
+	}
+}
+	</style>
+</head>
+<body>
+	<h1 class="h1"><i>My Assignment</i></h1>
+	<section class="main">
+		<section class="one">
+<div class="h4">Tajmahal</div>
+<p>Taj Mahal. An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife. </p>	
+</section>
+<section class="two">
+	<div class="h2">Charminar</div>
+	<p>The Charminar is a monument in Hyderabad, India. The structure was built in 1591 AD. It is the most famous building of Hyderabad and also one of the most famous buildings.</p>
+</section>
+<section  class="three">
+	<div class="h3">Tirumala</div>
+	<p>The first temple at Tirumala Tirupati was built by King Thondaiman, Tamil ruler of the ancient Thondaimandalam, after he had a dream of Lord Vishnu become true. </p>
+</section>
+</section>
+
+</body>
+</html>
